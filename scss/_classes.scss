@@ -1,0 +1,16 @@
+.title {
+  &-small {
+    letter-spacing: 0.5rem;
+    font-size: 1.9rem;
+  }
+}
+
+.separator {
+  border: 1px solid #ddd;
+}
+
+.text{
+  &-primary{
+    color: var(--primary);
+  }
+}

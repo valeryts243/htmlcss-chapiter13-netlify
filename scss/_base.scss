@@ -1,0 +1,46 @@
+// Ici on définira les règles génériques de notre site
+
+html {
+  // 1rem vaudra dorénavant 10px
+  font-size: 62.5%;
+}
+body {
+  // Je fais appelle à ma fonction font-family que j'avais défini dans mon fichier variables
+  font-family: var(--font-family);
+  color: var(--text);
+  font-size: 1.6rem;
+  max-width: 1280px;
+  max-height: auto;
+  margin: auto;
+  border: 1px solid var(--dark);
+}
+
+// Je règle le padding vertical de mes textes paragraphes à 10px
+p {
+  margin: 1rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // L'ordre de définition margin: haut droite bas gauche
+  margin: 1rem 0 2rem 0;
+}
+
+ul {
+  list-style: none;
+}
+
+// J'enlève le underscore des liens
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+// Je veux que mes images occupent uniquement l'espace nécessaire
+img {
+  max-width: 100%;
+}

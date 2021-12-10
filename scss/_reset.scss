@@ -1,0 +1,8 @@
+// On initialise le projet en enlevant le padding et le margin
+// On initialise le box-sizing afin que nos boites prennent uniquement la taille qu'on leur a demandé
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
